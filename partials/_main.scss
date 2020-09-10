@@ -1,0 +1,47 @@
+#carshow{
+    background-image: url("../img/jaguar-etype.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-color: $my-background;
+}
+.card {
+    margin-bottom: 20px;
+}
+.rotate-right{
+    @include my-rotate-right;
+}
+.rotate-left{
+    @include my-rotate-left;
+}
+.btn-primary {
+    background-color: $link-color;
+    border-color: darken($link-color, 3%);
+    &:hover {
+        background-color: darken($link-color, 3%);
+        border-color: darken($link-color, 6%);
+    }
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+h1{
+    @include white;
+}
+h1,h2,h3,h4,h5{
+    font-family: $my-headings;
+}
+.navbar-dark .navbar-nav .nav-link{
+    @include white;
+}
+p{
+    font-family: $my-font;
+}
+.footer{
+    background-color: $my-footer;
+    @include white;
+}
