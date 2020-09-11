@@ -5576,7 +5576,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #1b1e21; }
 
 #carshow {
-  background-image: url("./img/jaguar-etype.jpg");
+  background-image: url("/./img/jaguar-etype.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
